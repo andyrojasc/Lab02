@@ -1,0 +1,33 @@
+uuid: 2bb11e61-4705-4cb7-addc-2a37637b9036
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_licencia
+    - media.type.archivo_pdf
+    - taxonomy.vocabulary.licencia
+  content:
+    - 'taxonomy_term:licencia:9ce1d013-cc8e-4f06-bbf7-ac848d4039c2'
+id: media.archivo_pdf.field_licencia
+field_name: field_licencia
+entity_type: media
+bundle: archivo_pdf
+label: Licencia
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 9ce1d013-cc8e-4f06-bbf7-ac848d4039c2
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      licencia: licencia
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

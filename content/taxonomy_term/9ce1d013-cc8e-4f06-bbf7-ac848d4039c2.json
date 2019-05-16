@@ -1,0 +1,102 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/copyright?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/licencia"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/licencia\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9ce1d013-cc8e-4f06-bbf7-ac848d4039c2"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "licencia"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-05-16T21:23:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Copyright",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Protegido<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Protegido<\/p>",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/licencia\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-16T21:23:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/copyright",
+            "pid": 1,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

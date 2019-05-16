@@ -1,0 +1,22 @@
+uuid: bef3e90f-f622-44d9-bb02-37a8d61fb52a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.archivo
+  module:
+    - text
+id: node.archivo.body
+field_name: body
+entity_type: node
+bundle: archivo
+label: Descripcion
+description: 'Descripcion sobre el archivo'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

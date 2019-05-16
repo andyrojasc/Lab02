@@ -1,0 +1,62 @@
+uuid: 240a88f0-e933-481c-93e8-6d6e56189d01
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.media_entity_browser_modal
+    - field.field.node.archivo.body
+    - field.field.node.archivo.field_archivo
+    - field.field.node.archivo.field_licencia
+    - node.type.archivo
+  module:
+    - entity_browser
+    - text
+id: node.archivo.default
+targetEntityType: node
+bundle: archivo
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_archivo:
+    weight: 26
+    settings:
+      entity_browser: media_entity_browser_modal
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_licencia:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

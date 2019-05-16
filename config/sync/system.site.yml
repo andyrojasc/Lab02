@@ -1,0 +1,14 @@
+uuid: 11733f20-8c46-4d35-a37a-454086f5eaa5
+name: Lab02
+mail: andyrojasucr@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

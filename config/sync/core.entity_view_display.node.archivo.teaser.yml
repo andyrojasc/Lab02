@@ -1,0 +1,30 @@
+uuid: d64f1bf9-b1f7-4bcf-ae96-37a8bdd38717
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.archivo.body
+    - node.type.archivo
+  module:
+    - text
+    - user
+id: node.archivo.teaser
+targetEntityType: node
+bundle: archivo
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

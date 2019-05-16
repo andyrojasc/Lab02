@@ -1,0 +1,41 @@
+uuid: 7f278bac-c629-472c-bafb-ce71cb65a144
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.archivo_pdf.field_licencia
+    - field.field.media.archivo_pdf.field_media_file_1
+    - media.type.archivo_pdf
+  module:
+    - file
+id: media.archivo_pdf.default
+targetEntityType: media
+bundle: archivo_pdf
+mode: default
+content:
+  field_licencia:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_media_file_1:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  status: true
+  uid: true

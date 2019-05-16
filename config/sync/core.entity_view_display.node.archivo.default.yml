@@ -1,0 +1,43 @@
+uuid: 89278b12-0614-48de-96c3-1fe6106c3b6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.archivo.body
+    - field.field.node.archivo.field_archivo
+    - field.field.node.archivo.field_licencia
+    - node.type.archivo
+  module:
+    - text
+    - user
+id: node.archivo.default
+targetEntityType: node
+bundle: archivo
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_archivo:
+    type: entity_reference_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_licencia:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  links: true

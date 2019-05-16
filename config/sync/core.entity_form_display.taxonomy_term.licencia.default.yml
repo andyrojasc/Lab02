@@ -1,0 +1,31 @@
+uuid: 93e2103c-94e0-42f1-a0dc-ed43b3d6cd16
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.licencia
+  module:
+    - text
+id: taxonomy_term.licencia.default
+targetEntityType: taxonomy_term
+bundle: licencia
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  path: true

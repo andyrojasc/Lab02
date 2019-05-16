@@ -1,0 +1,33 @@
+uuid: 81700120-a2dc-47e0-bbb6-861887ce85d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_licencia
+    - node.type.archivo
+    - taxonomy.vocabulary.licencia
+  content:
+    - 'taxonomy_term:licencia:9ce1d013-cc8e-4f06-bbf7-ac848d4039c2'
+id: node.archivo.field_licencia
+field_name: field_licencia
+entity_type: node
+bundle: archivo
+label: Licencia
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 9ce1d013-cc8e-4f06-bbf7-ac848d4039c2
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      licencia: licencia
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

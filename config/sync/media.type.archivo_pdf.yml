@@ -1,0 +1,13 @@
+uuid: 811117be-dde6-457f-a252-d33b919a27f4
+langcode: en
+status: true
+dependencies: {  }
+id: archivo_pdf
+label: 'Archivo PDF'
+description: 'Archivo PDF'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file_1
+field_map: {  }

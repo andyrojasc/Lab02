@@ -1,0 +1,26 @@
+uuid: b7f3749e-4a83-4092-88c1-3c3125491e9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archivo
+    - node.type.archivo
+id: node.archivo.field_archivo
+field_name: field_archivo
+entity_type: node
+bundle: archivo
+label: Archivo
+description: 'Notas sobre obras'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: _none
+    auto_create: null
+    auto_create_bundle: null
+field_type: entity_reference

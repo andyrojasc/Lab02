@@ -1,0 +1,8 @@
+uuid: 1192293a-672c-4e44-81fd-5d33f207dab3
+langcode: en
+status: true
+dependencies: {  }
+name: Licencia
+vid: licencia
+description: 'TIpo de licencia del contenido publicado'
+weight: 0
